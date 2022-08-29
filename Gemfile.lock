@@ -180,7 +180,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.4)
     stripe (6.3.0)
     thor (1.2.1)
     tzinfo (2.0.5)
@@ -216,7 +215,6 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.1.6, >= 6.1.6.1)
   spring
-  sqlite3 (~> 1.4)
   stripe
   tzinfo-data
   will_paginate (~> 3.1)
