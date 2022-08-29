@@ -1,2 +1,3 @@
 # Ecommerec-Rails-
-Back End in Ruby on Rails
+This is my Ecommerece app That contain its backend on rails and Front end on React 
+This repo is Back End on Ruby on Rails
