@@ -70,6 +70,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   end
   
   def register_success(resource)
+    byebug
     render json: @user, status: 200, serializer: UserSerializer
   end
   

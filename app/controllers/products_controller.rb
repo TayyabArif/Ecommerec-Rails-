@@ -1,9 +1,10 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :update, :destroy]
-  before_action :authenticate_user!, except: [:show,:all_products ]
+   before_action :authenticate_user!, except: [:show,:all_products ]
 
   # GET /products
   def index
+    byebug
     @product = current_user.products
     render json: @product
   end
@@ -24,6 +25,7 @@ class ProductsController < ApplicationController
 
   # POST /products
   def create
+    byebug
     @product = Product.new(product_params)
     @product.user= current_user
     if @product.save
